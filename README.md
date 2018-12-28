@@ -6,11 +6,11 @@ To get started with the exercises, you'll need to create a `conda` environment c
 
 '''
 
-C:\> conda create --prefix M:\\.conda\geg3460 python=3.7
+C:\\> conda create --prefix M:\\.conda\geg3460 python=3.7
 
-C:\> activate M:\\.conda\geg3460
+C:\\> activate M:\\.conda\geg3460
 
-C:\> conda install -c conda-forge cartopy geopandas
+C:\\> conda install -c conda-forge cartopy geopandas
 
 '''
 
