@@ -4,15 +4,11 @@
 
 To get started with the exercises, you'll need to create a `conda` environment containing the packages needed. On your M: drive, create a folder called ".conda" if it does not already exist. Next, open up __Anaconda Prompt__, and type the following commands:
 
-'''
-
-C:\\> conda create --prefix M:\\.conda\geg3460 python=3.7
-
-C:\\> activate M:\\.conda\geg3460
-
-C:\\> conda install -c conda-forge cartopy geopandas
-
-'''
+```
+C:\> conda create --prefix M:\.conda\geg3460 python=3.7
+C:\> activate M:\.conda\geg3460
+C:\> conda install -c conda-forge cartopy geopandas
+```
 
 This will probably take some time, but fortunately we only have to do this once (though you will have to do this again if you want to work on your personal computer). In the future, when you want to open the labs on a computer on the University network, you can just type `activate M:\.conda\geg3460` at the Anaconda command prompt, then navigate to the folder where you have your labs and open jupyter-notebook, without having to re-install the conda environment each time.
 
